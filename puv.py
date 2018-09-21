@@ -97,7 +97,7 @@ date_ymd, date_ym, date_day = give_time()
 soruce_file = "E:\lrzsz\sz\\" + date_ymd
 excel_file = "E:\lrzsz\sz\\" + date_ym + ".xlsx"
 data_dic = get_puv(soruce_file)
-export_excel(excel_file, data_dic, 19)
+export_excel(excel_file, data_dic, date_day)
 
 
 

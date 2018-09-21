@@ -4,7 +4,7 @@
 # 一张html上多个图表
 from __future__ import unicode_literals
 import xlrd
-from pyecharts import Bar, Page, Grid
+from pyecharts import Bar, Page, Line, Grid
 
 # 创建一个页面
 page = Page()
