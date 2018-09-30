@@ -62,26 +62,51 @@ import xlrd
 from pyecharts import Bar, Line
 import numpy as np
 
-
 data = xlrd.open_workbook('E:\lrzsz\sz\\201809.xlsx')
 table = data.sheets()[0]
-
-# X轴
-CLOTHES = table.col_values(0)
-# 数据
-clothes_pv = table.col_values(1)
-clothes_uv = table.col_values(2)
-clothes_ip = table.col_values(3)
-
-(Line("www.ekeguan.com")
-    .add("PV", CLOTHES, clothes_pv, is_stack=False)
-    .add("UV", CLOTHES, clothes_uv, is_stack=False)
-    .add("IP", CLOTHES, clothes_ip, is_stack=False)
-    .render('E:\lrzsz\sz\\201809.html'))
+print('xlrd模块的简单使用：')
+print('第一个sheet表名：', data.sheet_names()[0])
+# 获取 表的总行数
+print('第一sheet表行数：', table.nrows)
+# 获取 表的总列数
+print('第一sheet表列数：', table.ncols)
+# 获取单元格的值
+print('shett1的 0行0列 的值:', table.cell(0, 0).value)
+print('shett1的 1行0列 的值:', table.cell(1, 1).value)
+# 获取 表 的第一例的值
+# print(table.col_values(1))
 
 
+def get_sheet_number(sheet):
+    return sheet.nrows+1
 
 
+print('可以继续写入的行，即没有数据的行号：', get_sheet_number(table))
+'''
+比上面的复杂多了
+获取工作表的名字list中的第一个
+table_name = data.sheet_names()[0]
+print(table_name)
+# 根据表明获取 表对象 即 sheet对象
+table_sheet = data.sheet_by_name(table_name)
+print(table_sheet)
+通过sheet 对象获取 表的行数
+nrows = table_sheet.nrows
+print(data.sheet_by_name(table_name).nrows)
+'''
+
+# # X轴
+# CLOTHES = table.col_values(0)
+# # 数据
+# clothes_pv = table.col_values(1)
+# clothes_uv = table.col_values(2)
+# clothes_ip = table.col_values(3)
+#
+# (Line("www.ekeguan.com")
+#     .add("PV", CLOTHES, clothes_pv, is_stack=False)
+#     .add("UV", CLOTHES, clothes_uv, is_stack=False)
+#     .add("IP", CLOTHES, clothes_ip, is_stack=False)
+#     .render('E:\lrzsz\sz\\201809.html'))
 
 
 # import pandas as pd
