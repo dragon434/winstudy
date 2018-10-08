@@ -72,7 +72,7 @@ print('第一sheet表行数：', table.nrows)
 print('第一sheet表列数：', table.ncols)
 # 获取单元格的值
 print('shett1的 0行0列 的值:', table.cell(0, 0).value)
-print('shett1的 1行0列 的值:', table.cell(1, 1).value)
+print('shett1的 1行1列 的值:', table.cell(1, 1).value)
 # 获取 表 的第一例的值
 # print(table.col_values(1))
 
