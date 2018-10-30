@@ -62,10 +62,12 @@ import xlrd
 from pyecharts import Bar, Line
 import numpy as np
 
-data = xlrd.open_workbook('E:\lrzsz\sz\\201809.xlsx')
+data = xlrd.open_workbook('E:\lrzsz\sz\\201810.xlsx')
 table = data.sheets()[0]
+print(data.sheet_names())
 print('xlrd模块的简单使用：')
-print('第一个sheet表名：', data.sheet_names()[0])
+print('第一个sheet表名：', data.sheet_names()[0], data.sheet_by_name('account_jiaoshipai'))
+print('第2个sheet表名：', data.sheet_names()[1])
 # 获取 表的总行数
 print('第一sheet表行数：', table.nrows)
 # 获取 表的总列数
