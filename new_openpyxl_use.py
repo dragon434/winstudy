@@ -92,10 +92,12 @@ def export_excel(file_name, names, puv_dic, day):
 
     if os.path.isfile(file_name):
         puv_exc = load_workbook(file_name)
+        # 删除 多余的 sheet 表， puv_exc.sheetnames 以列表形式返回工作簿所有sheet表名
         if 'Sheet' in puv_exc.sheetnames:
             del puv_exc['Sheet']
         for name in names:
             worktable = puv_exc[name]
+            # 获取 sheet 表名
             title = worktable.title
             add_data2sheet(worktable, puv_dic, day, title)
     else:
@@ -172,6 +174,8 @@ def create_html(excelfile, html, day, m):
 
 
 if __name__ == '__main__':
+    # sys.argv 是列表
+    # sys.argv[2:] 获取 除脚本名称 和项目名称外的所有参数
     param = sys.argv[2:]
     print("param:", param)
     pro = sys.argv[1]
