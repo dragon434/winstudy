@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4febf7c-f47a-49d1-975a-2be3224fc60b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_xlrd.py" beforeDir="false" afterPath="$PROJECT_DIR$/new_xlrd.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tubiao.py" beforeDir="false" afterPath="$PROJECT_DIR$/tubiao.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,7 +11,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/winstudy$tubiao.coverage" NAME="tubiao Coverage Results" MODIFIED="1540952620632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/winstudy$tubiao.coverage" NAME="tubiao Coverage Results" MODIFIED="1540967758513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/winstudy$ua_count.coverage" NAME="ua_count Coverage Results" MODIFIED="1538272853888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/winstudy$pyecharts.coverage" NAME="绘图pyecharts Coverage Results" MODIFIED="1537255677154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/winstudy$alter_dingding.coverage" NAME="alter_dingding Coverage Results" MODIFIED="1537495442087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -68,14 +67,14 @@
           <entry key="Python Console" value="215" />
           <entry key="dummy" value="12" />
           <entry key="md" value="20" />
-          <entry key="py" value="9012" />
+          <entry key="py" value="9143" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="20" />
           <entry key="PLAIN_TEXT" value="12" />
-          <entry key="Python" value="9227" />
+          <entry key="Python" value="9358" />
         </counts>
       </usages-collector>
     </session>
@@ -88,8 +87,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/new_openpyxl_use.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="216" column="32" lean-forward="true" selection-start-line="216" selection-start-column="32" selection-end-line="216" selection-end-column="32" />
+            <state relative-caret-position="234">
+              <caret line="62" column="42" selection-start-line="62" selection-start-column="42" selection-end-line="62" selection-end-column="42" />
               <folding>
                 <element signature="e#265#304#0" expanded="true" />
                 <marker date="1540954944556" expanded="true" signature="1122:1127" ph="..." />
@@ -100,26 +99,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/new_xlrd.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="76" column="9" lean-forward="true" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
-              <folding>
-                <element signature="e#357#396#0" expanded="true" />
-                <element signature="e#3932#4894#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tubiao.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="66" column="24" lean-forward="true" selection-start-line="66" selection-start-column="6" selection-end-line="66" selection-end-column="24" />
+            <state relative-caret-position="180">
+              <caret line="60" column="35" selection-start-line="60" selection-start-column="35" selection-end-line="60" selection-end-column="35" />
               <folding>
                 <element signature="e#1222#1234#0" expanded="true" />
-                <marker date="1540952234616" expanded="true" signature="1816:1897" ph="..." />
+                <marker date="1540967918188" expanded="true" signature="1923:2004" ph="..." />
               </folding>
             </state>
           </provider>
@@ -158,9 +144,9 @@
         <option value="$PROJECT_DIR$/ua/ua_parser.py" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/hello.py" />
-        <option value="$PROJECT_DIR$/tubiao.py" />
         <option value="$PROJECT_DIR$/new_openpyxl_use.py" />
         <option value="$PROJECT_DIR$/new_xlrd.py" />
+        <option value="$PROJECT_DIR$/tubiao.py" />
       </list>
     </option>
   </component>
@@ -204,11 +190,6 @@
               <item name="winstudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="winstudy" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="winstudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="winstudy" type="462c0819:PsiDirectoryNode" />
-              <item name="puv_count" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -238,7 +219,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.new_xlrd">
+  <component name="RunManager" selected="Python.tubiao">
     <configuration name="new_openpyxl_use" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="winstudy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -358,8 +339,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.new_xlrd" />
         <item itemvalue="Python.tubiao" />
+        <item itemvalue="Python.new_xlrd" />
         <item itemvalue="Python.new_openpyxl_use" />
         <item itemvalue="Python.puv_tb" />
         <item itemvalue="Python.ua_count" />
@@ -390,6 +371,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992" visible="true" weight="0.11247335" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -397,10 +379,10 @@
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49946696" weight="0.32867885" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.49946696" visible="true" weight="0.32867885" />
       <window_info anchor="bottom" id="TODO" order="4" weight="0.32939914" />
       <window_info anchor="bottom" id="Python Console" order="5" weight="0.32867885" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="6" visible="true" weight="0.3243824" />
+      <window_info anchor="bottom" id="Terminal" order="6" weight="0.3243824" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50053304" side_tool="true" weight="0.32867885" />
       <window_info anchor="bottom" id="Message" order="8" />
       <window_info anchor="bottom" id="Find" order="9" weight="0.32939914" />
@@ -488,10 +470,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/new_xlrd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="674">
+          <caret line="100" column="9" lean-forward="true" selection-start-line="100" selection-start-column="9" selection-end-line="100" selection-end-column="9" />
+          <folding>
+            <element signature="e#357#396#0" expanded="true" />
+            <element signature="e#3932#4894#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/new_openpyxl_use.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="216" column="32" lean-forward="true" selection-start-line="216" selection-start-column="32" selection-end-line="216" selection-end-column="32" />
+        <state relative-caret-position="234">
+          <caret line="62" column="42" selection-start-line="62" selection-start-column="42" selection-end-line="62" selection-end-column="42" />
           <folding>
             <element signature="e#265#304#0" expanded="true" />
             <marker date="1540954944556" expanded="true" signature="1122:1127" ph="..." />
@@ -502,22 +495,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tubiao.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="66" column="24" lean-forward="true" selection-start-line="66" selection-start-column="6" selection-end-line="66" selection-end-column="24" />
+        <state relative-caret-position="180">
+          <caret line="60" column="35" selection-start-line="60" selection-start-column="35" selection-end-line="60" selection-end-column="35" />
           <folding>
             <element signature="e#1222#1234#0" expanded="true" />
-            <marker date="1540952234616" expanded="true" signature="1816:1897" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/new_xlrd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="76" column="9" lean-forward="true" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
-          <folding>
-            <element signature="e#357#396#0" expanded="true" />
-            <element signature="e#3932#4894#0" />
+            <marker date="1540967918188" expanded="true" signature="1923:2004" ph="..." />
           </folding>
         </state>
       </provider>

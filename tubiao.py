@@ -58,25 +58,27 @@
 
 
 # 做成html
+# xlrd 对excel 进行读操作，xlwt 对exce进行写操作
 import xlrd
 from pyecharts import Bar, Line
 import numpy as np
 
-data = xlrd.open_workbook('E:\lrzsz\sz\\201810.xlsx')
+data = xlrd.open_workbook('E:\lrzsz\sz\jiaoshipai\\201810.xlsx')
 table = data.sheets()[0]
-print(data.sheet_names())
+
 print('xlrd模块的简单使用：')
-print('第一个sheet表名：', data.sheet_names()[0], data.sheet_by_name('account_jiaoshipai'))
+print("工作簿里的所有工作表名字和对象：", data.sheet_names(), data.sheets())
+print('第一个sheet表名 和对象：', data.sheet_names()[0], data.sheet_by_name('account_jiaoshipai'))
 print('第2个sheet表名：', data.sheet_names()[1])
 # 获取 表的总行数
 print('第一sheet表行数：', table.nrows)
 # 获取 表的总列数
 print('第一sheet表列数：', table.ncols)
 # 获取单元格的值
-print('shett1的 0行0列 的值:', table.cell(0, 0).value)
-print('shett1的 1行1列 的值:', table.cell(1, 1).value)
+print('第一个 shett的 0行0列 的值:', table.cell(0, 0).value)
+print('第一个 shett的 1行1列 的值:', table.cell(1, 1).value)
 # 获取 表 的第一例的值
-# print(table.col_values(1))
+print("获取 表 的第一例的值:", table.col_values(1))
 
 
 def get_sheet_number(sheet):
