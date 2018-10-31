@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b4febf7c-f47a-49d1-975a-2be3224fc60b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/tubiao.py" beforeDir="false" afterPath="$PROJECT_DIR$/tubiao.py" afterDir="false" />
-    </list>
+    <list default="true" id="b4febf7c-f47a-49d1-975a-2be3224fc60b" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,8 +99,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tubiao.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="60" column="35" selection-start-line="60" selection-start-column="35" selection-end-line="60" selection-end-column="35" />
+            <state relative-caret-position="240">
+              <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
               <folding>
                 <element signature="e#1222#1234#0" expanded="true" />
                 <marker date="1540967918188" expanded="true" signature="1923:2004" ph="..." />
@@ -371,7 +369,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992" visible="true" weight="0.11247335" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -379,10 +376,10 @@
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="2" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.49946696" visible="true" weight="0.32867885" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49946696" weight="0.32867885" />
       <window_info anchor="bottom" id="TODO" order="4" weight="0.32939914" />
       <window_info anchor="bottom" id="Python Console" order="5" weight="0.32867885" />
-      <window_info anchor="bottom" id="Terminal" order="6" weight="0.3243824" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="6" visible="true" weight="0.3243824" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50053304" side_tool="true" weight="0.32867885" />
       <window_info anchor="bottom" id="Message" order="8" />
       <window_info anchor="bottom" id="Find" order="9" weight="0.32939914" />
@@ -495,8 +492,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tubiao.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="60" column="35" selection-start-line="60" selection-start-column="35" selection-end-line="60" selection-end-column="35" />
+        <state relative-caret-position="240">
+          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
           <folding>
             <element signature="e#1222#1234#0" expanded="true" />
             <marker date="1540967918188" expanded="true" signature="1923:2004" ph="..." />
