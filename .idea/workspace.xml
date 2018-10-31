@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4febf7c-f47a-49d1-975a-2be3224fc60b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/new_xlrd.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/new_openpyxl_use.py" beforeDir="false" afterPath="$PROJECT_DIR$/new_openpyxl_use.py" afterDir="false" />
     </list>
@@ -12,11 +13,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/winstudy$tubiao.coverage" NAME="tubiao Coverage Results" MODIFIED="1540889794468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/winstudy$tubiao.coverage" NAME="tubiao Coverage Results" MODIFIED="1540952620632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/winstudy$ua_count.coverage" NAME="ua_count Coverage Results" MODIFIED="1538272853888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/winstudy$pyecharts.coverage" NAME="绘图pyecharts Coverage Results" MODIFIED="1537255677154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/winstudy$alter_dingding.coverage" NAME="alter_dingding Coverage Results" MODIFIED="1537495442087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/winstudy$puv.coverage" NAME="puv Coverage Results" MODIFIED="1537945853660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/winstudy$new_openpyxl_use.coverage" NAME="new_openpyxl_use Coverage Results" MODIFIED="1540952116505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/winstudy$new_xlrd.coverage" NAME="new_xlrd Coverage Results" MODIFIED="1540952654823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/winstudy$time_puvtb.coverage" NAME="time_puvtb Coverage Results" MODIFIED="1537957338902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/winstudy$ua_parser.coverage" NAME="ua_parser Coverage Results" MODIFIED="1538215928001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ua" />
     <SUITE FILE_PATH="coverage/winstudy$hello.coverage" NAME="hello Coverage Results" MODIFIED="1537510771777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -41,24 +44,24 @@
     <session id="-428726957">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
+          <entry key="project.closed" value="12" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.5" value="8" />
+          <entry key="project.open.time.5" value="9" />
           <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="12" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="md" value="1" />
-          <entry key="py" value="15" />
+          <entry key="py" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Markdown" value="1" />
-          <entry key="Python" value="15" />
+          <entry key="Python" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -66,14 +69,14 @@
           <entry key="Python Console" value="215" />
           <entry key="dummy" value="12" />
           <entry key="md" value="20" />
-          <entry key="py" value="8492" />
+          <entry key="py" value="8958" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="20" />
           <entry key="PLAIN_TEXT" value="12" />
-          <entry key="Python" value="8707" />
+          <entry key="Python" value="9173" />
         </counts>
       </usages-collector>
     </session>
@@ -86,11 +89,37 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/new_openpyxl_use.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="473">
-              <caret line="186" column="5" lean-forward="true" selection-start-line="186" selection-start-column="5" selection-end-line="186" selection-end-column="5" />
+            <state relative-caret-position="549">
+              <caret line="227" column="55" lean-forward="true" selection-start-line="227" selection-start-column="55" selection-end-line="227" selection-end-column="55" />
               <folding>
                 <element signature="e#265#304#0" expanded="true" />
-                <marker date="1540895237394" expanded="true" signature="1851:2131" ph="..." />
+                <marker date="1540954944556" expanded="true" signature="1122:1127" ph="..." />
+                <marker date="1540954944556" expanded="true" signature="2815:3352" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/new_xlrd.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+              <folding>
+                <element signature="e#357#396#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tubiao.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="66" column="24" lean-forward="true" selection-start-line="66" selection-start-column="6" selection-end-line="66" selection-end-column="24" />
+              <folding>
+                <element signature="e#1222#1234#0" expanded="true" />
+                <marker date="1540952234616" expanded="true" signature="1816:1897" ph="..." />
               </folding>
             </state>
           </provider>
@@ -128,8 +157,9 @@
         <option value="$PROJECT_DIR$/ua_count.py" />
         <option value="$PROJECT_DIR$/ua/ua_parser.py" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/tubiao.py" />
         <option value="$PROJECT_DIR$/hello.py" />
+        <option value="$PROJECT_DIR$/tubiao.py" />
+        <option value="$PROJECT_DIR$/new_xlrd.py" />
         <option value="$PROJECT_DIR$/new_openpyxl_use.py" />
       </list>
     </option>
@@ -166,6 +196,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -173,11 +204,15 @@
               <item name="winstudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="winstudy" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="winstudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="winstudy" type="462c0819:PsiDirectoryNode" />
+              <item name="puv_count" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -203,7 +238,51 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.tubiao">
+  <component name="RunManager" selected="Python.new_xlrd">
+    <configuration name="new_openpyxl_use" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="winstudy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/new_openpyxl_use.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="new_xlrd" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="winstudy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/new_xlrd.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="puv_tb" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="winstudy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -218,28 +297,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/puv_count/puv_tb.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="time_puv" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="winstudy" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="E:\gittest\python\winstudy\puv_count\time_puv.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -292,42 +349,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ua_parser" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="winstudy" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ua" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ua/ua_parser.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python.time_puv" />
       <item itemvalue="Python.ua_count" />
-      <item itemvalue="Python.ua_parser" />
       <item itemvalue="Python.tubiao" />
       <item itemvalue="Python.puv_tb" />
+      <item itemvalue="Python.new_openpyxl_use" />
+      <item itemvalue="Python.new_xlrd" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.new_xlrd" />
         <item itemvalue="Python.tubiao" />
+        <item itemvalue="Python.new_openpyxl_use" />
         <item itemvalue="Python.puv_tb" />
         <item itemvalue="Python.ua_count" />
-        <item itemvalue="Python.ua_parser" />
-        <item itemvalue="Python.time_puv" />
       </list>
     </recent_temporary>
   </component>
@@ -355,9 +390,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992" visible="true" weight="0.11140725" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992" visible="true" weight="0.11247335" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5008" side_tool="true" weight="0.102878466" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
@@ -366,7 +400,7 @@
       <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49946696" weight="0.32867885" />
       <window_info anchor="bottom" id="TODO" order="4" weight="0.32939914" />
       <window_info anchor="bottom" id="Python Console" order="5" weight="0.32867885" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="6" visible="true" weight="0.3254565" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="6" visible="true" weight="0.3243824" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50053304" side_tool="true" weight="0.32867885" />
       <window_info anchor="bottom" id="Message" order="8" />
       <window_info anchor="bottom" id="Find" order="9" weight="0.32939914" />
@@ -427,20 +461,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tubiao.py">
+    <entry file="file://$PROJECT_DIR$/ua_count.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="73" column="33" lean-forward="true" selection-start-line="73" selection-start-column="33" selection-end-line="73" selection-end-column="33" />
-          <folding>
-            <element signature="e#1222#1233#0" expanded="true" />
-            <marker date="1540889794465" expanded="true" signature="1816:1897" ph="..." />
-          </folding>
+        <state relative-caret-position="545">
+          <caret line="57" column="13" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/puv_count/puv.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
+        <state relative-caret-position="713">
           <caret line="102" column="27" selection-start-line="102" selection-start-column="27" selection-end-line="102" selection-end-column="27" />
           <folding>
             <element signature="e#44#73#0" expanded="true" />
@@ -458,23 +488,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ua_count.py">
+    <entry file="file://$PROJECT_DIR$/new_xlrd.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="545">
-          <caret line="57" column="13" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
+        <state relative-caret-position="414">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
           <folding>
-            <element signature="e#83#92#0" expanded="true" />
+            <element signature="e#357#396#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tubiao.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="66" column="24" lean-forward="true" selection-start-line="66" selection-start-column="6" selection-end-line="66" selection-end-column="24" />
+          <folding>
+            <element signature="e#1222#1234#0" expanded="true" />
+            <marker date="1540952234616" expanded="true" signature="1816:1897" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/new_openpyxl_use.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="186" column="5" lean-forward="true" selection-start-line="186" selection-start-column="5" selection-end-line="186" selection-end-column="5" />
+        <state relative-caret-position="549">
+          <caret line="227" column="55" lean-forward="true" selection-start-line="227" selection-start-column="55" selection-end-line="227" selection-end-column="55" />
           <folding>
             <element signature="e#265#304#0" expanded="true" />
-            <marker date="1540895237394" expanded="true" signature="1851:2131" ph="..." />
+            <marker date="1540954944556" expanded="true" signature="1122:1127" ph="..." />
+            <marker date="1540954944556" expanded="true" signature="2815:3352" ph="..." />
           </folding>
         </state>
       </provider>

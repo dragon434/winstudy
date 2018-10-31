@@ -50,7 +50,7 @@ def add_head(sheet):
 
 
 def get_days(sheet):
-    for i in range(2, 31):
+    for i in range(2, 33):
         s = sheet.cell(row=i, column=1)
         if s.value:
             continue
@@ -89,7 +89,6 @@ def add_data2sheet(sheet, puv_dic, day, sheet_name):
 
 
 def export_excel(file_name, names, puv_dic, day):
-
     if os.path.isfile(file_name):
         puv_exc = load_workbook(file_name)
         # 删除 多余的 sheet 表， puv_exc.sheetnames 以列表形式返回工作簿所有sheet表名
@@ -109,75 +108,115 @@ def export_excel(file_name, names, puv_dic, day):
     puv_exc.save(file_name)
 
 
-def add_html(m, d):
-    data = xlrd.open_workbook('/mnt/data/bank/section/account_ekeguan_com' + m + '.xlsx')
-    www = xlrd.open_workbook('/mnt/data/bank/section/www_ekeguan_com' + m + '.xlsx')
+def add_html(m, d, name):
+    # for name in names:
+    print(name, m, d)
+    data = xlrd.open_workbook('E:\lrzsz\sz\jiaoshipai\section\\' + name + m + '.xlsx')
     table = data.sheets()[0]
-    bank = www.sheets()[0]
 
     CLOTHES = table.col_values(0)
     clothes_pv = table.col_values(1)
     clothes_uv = table.col_values(2)
     clothes_ip = table.col_values(3)
 
-    bar = Line("account_ekeguan_com_" + d + "号", height=350)
+    bar = Line(name + '_' + d + "号", height=350)
     bar.add("PV", CLOTHES, clothes_pv)
     bar.add("UV", CLOTHES, clothes_uv)
     bar.add("IP", CLOTHES, clothes_ip, is_stack=False, is_datazoom_show=True)
 
-    CLOTHES = bank.col_values(0)
-    clothes_pv = bank.col_values(1)
-    clothes_uv = bank.col_values(2)
-    clothes_ip = bank.col_values(3)
+    return bar
 
-    line = Line("www_ekeguan_com_" + d + "号", title_top='1%')
-    line.add("PV", CLOTHES, clothes_pv)
-    line.add("UV", CLOTHES, clothes_uv)
-    line.add("IP", CLOTHES, clothes_ip, is_stack=False, is_datazoom_show=True)
-
-    return bar, line
+    # data = xlrd.open_workbook('/mnt/data/bank/section/account_ekeguan_com' + m + '.xlsx')
+    # www = xlrd.open_workbook('/mnt/data/bank/section/www_ekeguan_com' + m + '.xlsx')
+    # table = data.sheets()[0]
+    # bank = www.sheets()[0]
+    #
+    # CLOTHES = table.col_values(0)
+    # clothes_pv = table.col_values(1)
+    # clothes_uv = table.col_values(2)
+    # clothes_ip = table.col_values(3)
+    #
+    # bar = Line("account_ekeguan_com_" + d + "号", height=350)
+    # bar.add("PV", CLOTHES, clothes_pv)
+    # bar.add("UV", CLOTHES, clothes_uv)
+    # bar.add("IP", CLOTHES, clothes_ip, is_stack=False, is_datazoom_show=True)
+    #
+    # CLOTHES = bank.col_values(0)
+    # clothes_pv = bank.col_values(1)
+    # clothes_uv = bank.col_values(2)
+    # clothes_ip = bank.col_values(3)
+    #
+    # line = Line("www_ekeguan_com_" + d + "号", title_top='1%')
+    # line.add("PV", CLOTHES, clothes_pv)
+    # line.add("UV", CLOTHES, clothes_uv)
+    # line.add("IP", CLOTHES, clothes_ip, is_stack=False, is_datazoom_show=True)
+    #
+    # return bar, line
 
 
 def create_html(excelfile, html, day, m):
     page = Page()
 
     data = xlrd.open_workbook(excelfile)
-    table = data.sheets()[0]
-    bank = data.sheets()[1]
+    Names = data.sheet_names()
+    for name in Names:
+        sheet = data.sheet_by_name(name)
+        print(sheet.name)
 
-    CLOTHES = table.col_values(0)
-    clothes_pv = table.col_values(1)
-    clothes_uv = table.col_values(2)
-    clothes_ip = table.col_values(3)
+        CLOTHES = sheet.col_values(0)
+        clothes_pv = sheet.col_values(1)
+        clothes_uv = sheet.col_values(2)
+        clothes_ip = sheet.col_values(3)
 
-    bar = Bar("account_ekeguan_com", height=350)
-    bar.add("PV", CLOTHES, clothes_pv)
-    bar.add("UV", CLOTHES, clothes_uv)
-    bar.add("IP", CLOTHES, clothes_ip, is_stack=False, is_datazoom_show=True)
+        bar = Bar(sheet.name, height=350)
+        bar.add("PV", CLOTHES, clothes_pv)
+        bar.add("UV", CLOTHES, clothes_uv)
+        bar.add("IP", CLOTHES, clothes_ip, is_stack=False, is_datazoom_show=True)
 
-    CLOTHES = bank.col_values(0)
-    clothes_pv = bank.col_values(1)
-    clothes_uv = bank.col_values(2)
-    clothes_ip = bank.col_values(3)
+        # 添加时间段 图表
+        day_bar = add_html(m, day, name)
 
-    line = Bar("www_ekeguan_com", title_top='1%')
-    line.add("PV", CLOTHES, clothes_pv)
-    line.add("UV", CLOTHES, clothes_uv)
-    line.add("IP", CLOTHES, clothes_ip, is_stack=False, is_datazoom_show=True)
+        page.add(bar)
+        page.add(day_bar)
+        page.render(html)
 
-    day_bar, day_line = add_html(m, day)
-    page.add(bar)
-    page.add(line)
-    page.add(day_bar)
-    page.add(day_line)
-    page.render(html)
+    # OLD 程序
+    # table = data.sheets()[0]
+    # bank = data.sheets()[1]
+    #
+    # CLOTHES = table.col_values(0)
+    # clothes_pv = table.col_values(1)
+    # clothes_uv = table.col_values(2)
+    # clothes_ip = table.col_values(3)
+    #
+    # bar = Bar("account_ekeguan_com", height=350)
+    # bar.add("PV", CLOTHES, clothes_pv)
+    # bar.add("UV", CLOTHES, clothes_uv)
+    # bar.add("IP", CLOTHES, clothes_ip, is_stack=False, is_datazoom_show=True)
+    #
+    # CLOTHES = bank.col_values(0)
+    # clothes_pv = bank.col_values(1)
+    # clothes_uv = bank.col_values(2)
+    # clothes_ip = bank.col_values(3)
+    #
+    # line = Bar("www_ekeguan_com", title_top='1%')
+    # line.add("PV", CLOTHES, clothes_pv)
+    # line.add("UV", CLOTHES, clothes_uv)
+    # line.add("IP", CLOTHES, clothes_ip, is_stack=False, is_datazoom_show=True)
+
+    # day_bar, day_line = add_html(m, day)
+    # page.add(bar)
+    # page.add(line)
+    # page.add(day_bar)
+    # page.add(day_line)
+    # page.render(html)
 
 
 if __name__ == '__main__':
     # sys.argv 是列表
     # sys.argv[2:] 获取 除脚本名称 和项目名称外的所有参数
     param = sys.argv[2:]
-    print("param:", param)
+    # print("param:", param)
     pro = sys.argv[1]
     date_ymd, date_ym, date_day = give_time()
     soruce_file = "E:\lrzsz\sz\\" + pro + "\\" + date_ymd + '.json'
@@ -187,4 +226,4 @@ if __name__ == '__main__':
     #
     data_dic = get_puv(soruce_file)
     export_excel(excel_file, param, data_dic, date_day)
-    # create_html(excel_file, html_file, date_day, date_ym)
+    create_html(excel_file, html_file, date_day, date_ym)
